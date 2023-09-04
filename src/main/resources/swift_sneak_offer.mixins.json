@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.plusls.swift_sneak_offer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinSwiftSneakEnchantment"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

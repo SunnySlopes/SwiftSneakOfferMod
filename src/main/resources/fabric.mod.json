@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "swift_sneak_offer",
+  "version": "${version}",
+  "name": "Swift Sneak Offer",
+  "description": "Swift Sneak Offer",
+  "authors": [
+    "plusls"
+  ],
+  "contact": {
+    "homepage": "https://blog.plusls.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/swift_sneak_offer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.plusls.swift_sneak_offer.SwiftSneakOffer"
+    ]
+  },
+  "mixins": [
+    "swift_sneak_offer.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
